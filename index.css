@@ -1,0 +1,223 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.link-logo-torta-83092e91png {
+  position: absolute;
+  top: calc(50% - 59.55px);
+  left: 0;
+  width: 460px;
+  height: 119.1px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.divsc-gtsquy {
+  position: absolute;
+  height: calc(100% + 0.4px);
+  top: 0;
+  bottom: -0.4px;
+  left: 0;
+  width: 460px;
+}
+.home {
+  position: absolute;
+  top: 47px;
+  left: calc(50% - 30.2px);
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 59.6px;
+  height: 28px;
+}
+.item-link {
+  position: absolute;
+  width: calc(100% - 840.6px);
+  top: 15px;
+  right: 0;
+  left: 840.6px;
+  border-bottom: 8px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  height: 104px;
+  font-size: 21.31px;
+}
+.cadastrologin {
+  position: absolute;
+  top: 47px;
+  left: calc(50% - 83px);
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 165.2px;
+  height: 28px;
+}
+.item-link1,
+.item-link2 {
+  position: absolute;
+  width: calc(100% - 735px);
+  top: 15px;
+  right: 119.4px;
+  left: 615.6px;
+  border-bottom: 8px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  height: 104px;
+}
+.item-link2 {
+  width: calc(100% - 840.6px);
+  right: 344.4px;
+  left: 496.2px;
+  font-size: 19.94px;
+}
+.inicial {
+  position: absolute;
+  top: 47px;
+  left: calc(50% - 32.4px);
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 28px;
+}
+.item-link3 {
+  position: absolute;
+  width: calc(100% - 836.2px);
+  top: 15px;
+  right: 463.8px;
+  left: 372.4px;
+  border-bottom: 8px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  height: 104px;
+}
+.list {
+  height: calc(100% + 0.4px);
+  width: calc(100% - 960px);
+  top: 6px;
+  right: 210px;
+  bottom: -6.4px;
+  left: 750px;
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+}
+.bem-vindo,
+.list,
+.nav {
+  position: absolute;
+}
+.nav {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-aliceblue);
+  height: 106.7px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+}
+.bem-vindo {
+  top: 465.8px;
+  left: 209.4px;
+  letter-spacing: 0.36em;
+  line-height: 163.94px;
+  color: var(--color-darkslategray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1428.5px;
+  height: 182.7px;
+}
+.group-child,
+.tasks-1-1 {
+  position: absolute;
+  left: 0;
+  width: 1933px;
+}
+.tasks-1-1 {
+  top: 106.6px;
+  height: 941.4px;
+  object-fit: cover;
+}
+.group-child {
+  top: 1494px;
+  background-color: var(--color-darkslategray-200);
+  height: 552px;
+}
+.bem-vindo1 {
+  position: absolute;
+  top: 465.8px;
+  left: 209.4px;
+  letter-spacing: 0.36em;
+  line-height: 163.94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1428.5px;
+  height: 182.7px;
+}
+.group-item {
+  position: absolute;
+  top: 949.4px;
+  left: 0;
+  background-color: var(--color-slategray);
+  width: 1933px;
+  height: 552px;
+}
+.sobre-o-projeto {
+  position: absolute;
+  top: 927.9px;
+  left: 935.3px;
+  line-height: 163.94px;
+  color: var(--color-darkslategray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 471.2px;
+  height: 146.9px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 1001.4px;
+  left: 55.4px;
+  width: 554.4px;
+  height: 447.2px;
+  object-fit: cover;
+}
+.nosso-projeto-srtorto,
+.o-objetivo {
+  position: absolute;
+  top: 1176.9px;
+  left: 700.7px;
+  font-size: var(--font-size-17xl);
+  line-height: 88.2px;
+  font-family: var(--font-roboto);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1191px;
+  height: 186.3px;
+}
+.o-objetivo {
+  top: 1702.7px;
+  left: 411.8px;
+  line-height: 76.12px;
+  width: 1186px;
+  height: 233.3px;
+}
+.nav-parent {
+  position: relative;
+  width: 100%;
+  height: 2046px;
+  opacity: 0;
+  text-align: center;
+  font-size: 63.96px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.nav-parent.animate {
+  animation: 1s ease 1s 1 normal forwards fade-in;
+}

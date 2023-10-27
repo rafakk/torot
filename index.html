@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="nav-parent" data-animate-on-scroll>
+      <div class="nav">
+        <div class="divsc-gtsquy">
+          <img
+            class="link-logo-torta-83092e91png"
+            alt=""
+            src="./public/link--logotorta83092e91png@2x.png"
+          />
+        </div>
+        <div class="list">
+          <div class="item-link">
+            <div class="home">Home</div>
+          </div>
+          <div class="item-link1">
+            <div class="cadastrologin">Cadastro/Login</div>
+          </div>
+          <div class="item-link2">
+            <div class="home">Casco</div>
+          </div>
+          <div class="item-link3">
+            <div class="inicial">Inicial</div>
+          </div>
+        </div>
+      </div>
+      <div class="bem-vindo">Bem Vindo!</div>
+      <img class="tasks-1-1" alt="" src="./public/tasks-1-1@2x.png" />
+
+      <div class="group-child"></div>
+      <div class="bem-vindo1">Bem Vindo!</div>
+      <div class="group-item"></div>
+      <div class="sobre-o-projeto">Sobre o Projeto</div>
+      <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+
+      <div class="nosso-projeto-srtorto">
+        Nosso projeto, "Sr.Torto," é uma plataforma gamificada na web que visa
+        ajudar indivíduos com ansiedade e depressão a adotar hábitos mais
+        saudáveis. Através da conclusão de tarefas, os usuários serão
+        recompensados, incentivando a busca por ajuda médica.
+      </div>
+      <div class="o-objetivo">
+        O objetivo é aumentar a conscientização sobre a depressão, proporcionar
+        acesso a recursos informativos, oferecer apoio emocional e ferramentas
+        de autogestão, com a esperança de melhorar o bem-estar emocional dos
+        usuários e reduzir o estigma associado à depressão.
+      </div>
+    </div>
+
+    <script>
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
